@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * main - prints putchar,
@@ -5,7 +6,6 @@
  * return: Always 0 (if successful)
  */
 int main(void)
-
 {
 	putchar('_');
 	putchar('p');
