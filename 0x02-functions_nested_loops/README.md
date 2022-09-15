@@ -1,1 +1,1 @@
-create c programming file under functions and neste loops
+create c programming files under the topic 'functions and nested loops'
