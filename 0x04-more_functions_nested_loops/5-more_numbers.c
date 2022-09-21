@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * more_numbers - print 10x the numbers, from 0 - 14
- * a new line follows
+ *more_numbers - prints 10 times the numbers, from 0 to 14
+ *followed by a new line
  */
 void more_numbers(void)
 {

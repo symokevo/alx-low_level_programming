@@ -1,1 +1,2 @@
-More c programming exercises on funcitons and nested loops
+More functions, more nested loops in C programming.
+
