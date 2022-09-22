@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strcat is to concatenate two strings.
+ * _strcat - concatenates two strings.
  * @src: part_1 of the string
  * @dest: part_2 of the string
  * Return: pointer to the resulting string dest
@@ -25,4 +25,5 @@ char *_strcat(char *dest, char *src)
 
 	dest[i] = '\0';
 	return (dest);
+
 }
