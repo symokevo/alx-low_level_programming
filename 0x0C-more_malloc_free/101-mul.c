@@ -3,8 +3,9 @@
 
 /**
  * main - a program that multiplies two positive numbers.
- * @argc: argument count
- * @argv: arguments
+ * @argc: The argument count
+ * @argv: The arguments
+ *
  * Return: 0 on success, 38 otherwise
  */
 int main(int argc, char *argv[])
@@ -37,8 +38,9 @@ int main(int argc, char *argv[])
 }
 
 /**
- * _strlen - returns the length of a string.
- * @s: string to return the length
+ * _strlen - This function returns the length of a string.
+ * @s: The string to return the length
+ *
  * Return: Length of s
  */
 int _strlen(char *s)
@@ -53,8 +55,9 @@ int _strlen(char *s)
 
 /**
  * _multiply - multiply two numbers
- * @mul: array to store the result
- * @str: string
+ * @mul: The array to store the result
+ * @str: The string
+ *
  * Returns: void
  */
 void _multiply(int *mul, char *str[])
@@ -85,8 +88,9 @@ void _multiply(int *mul, char *str[])
 }
 
 /**
- * rev_string - reverses a string.
- * @s: string to be reversed
+ * rev_string - This function reverses a string.
+ * @s: the string to be reversed
+ *
  * Return: void
  */
 void rev_string(char *s)
@@ -109,8 +113,9 @@ void rev_string(char *s)
 }
 
 /**
- * print_ans - Print answer
- * @mul: product
+ * print_ans - Print the answer
+ * @mul: the product
+ *
  * Return: void
  */
 void print_ans(int *mul)
