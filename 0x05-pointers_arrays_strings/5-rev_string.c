@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * rev_string - reverse a string
+ * rev_string - reverses a string
+ *
  * @s: string to reverse
+ *
  * Return: Always 0.
  */
 
@@ -25,4 +27,5 @@ void rev_string(char *s)
 			s[i] = s[len1];
 			s[len1--] = tmp;
 		}
+
 }

@@ -2,35 +2,31 @@
 #include <stdio.h>
 
 /**
- * cap_string - capitalizes all words of a string
- * @str: the variable
+ * cap_string - ...
+ * @s: ...
+ *
  * Return: char value
  */
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
-	int a;
+	int a = 0, i;
+	int cspc = 13;
+	char spc[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
 
-	for (a = 0; str[a] != '\0'; a++)
+	while (s[a])
 	{
-		while (str[a] >= 'a' && str[a] <= 'z')
+		i = 0;
+
+		while (i < cspc)
 		{
-			if (str[a - 1] == ' ' ||
-			str[a - 1] == '\t' ||
-			str[a - 1] == '\n' ||
-			str[a - 1] == ',' ||
-			str[a - 1] == ';' ||
-			str[a - 1] == '.' ||
-			str[a - 1] == '!' ||
-			str[a - 1] == '?' ||
-			str[a - 1] == '"' ||
-			str[a - 1] == '(' ||
-			str[a - 1] == ')' ||
-			str[a - 1] == '{' ||
-			str[a - 1] == '}' ||
-			a == 0)
-				str[a] = str[a] - 32;
-			a++;
+			if ((a == 0 || s[a - 1] == spc[i]) && (s[a] >= 97 && s[a] <= 122))
+				s[a] -= 32;
+
+			i++;
 		}
+
+		a++;
 	}
-	return (str);
+
+	return (s);
 }

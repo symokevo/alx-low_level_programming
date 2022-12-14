@@ -4,6 +4,7 @@
 /**
  * _strlen - returns the length of a string
  * @s: string to evaluate
+ *
  * Return: the length of the string
  */
 int _strlen(char *s)
@@ -24,6 +25,7 @@ int _strlen(char *s)
  * to the buffer pointed to by dest
  * @dest: pointer to the buffer in which we copy the string
  * @src: string to be copied
+ *
  * Return: the pointer to dest
  */
 char *_strcpy(char *dest, char *src)
@@ -43,10 +45,10 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 /**
- * new_dog - create new dog
- * @name: dog's name
- * @age: dog's age
- * @owner: dog's owner
+ * new_dog - creates a new dog
+ * @name: name of the dog
+ * @age: age of the dog
+ * @owner: owner of the dog
  * Return: pointer to the new dog (Success), NULL otherwise
  */
 dog_t *new_dog(char *name, float age, char *owner)

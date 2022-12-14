@@ -1,1 +1,1 @@
-c programming repository containing excercise files on c structures_typedef topic
+C - Structures, typedef

@@ -1,1 +1,1 @@
-C - Static libraries exercise files 
+C - Static libraries

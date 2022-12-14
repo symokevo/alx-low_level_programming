@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
  * main - prints all the numbers of base 16 in lowercase,
- * a new line follows
- * Return: Always 0 (if Successful)
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

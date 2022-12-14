@@ -4,9 +4,9 @@
 #include <stdlib.h>
 /**
  * struct dog - A dog
- * @name: name of the dog
- * @age: dog age
- * @owner: dog owner
+ * @name: The name of the dog
+ * @age: The dog age
+ * @owner: The dog owner
  */
 struct dog
 {

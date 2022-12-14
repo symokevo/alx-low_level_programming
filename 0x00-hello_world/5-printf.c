@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *  main - this is the entry point for the code
+ *  *main - this is the entry point for the code
  *
  *  Return: 0 if exited properly, non-zero otherwise
  */

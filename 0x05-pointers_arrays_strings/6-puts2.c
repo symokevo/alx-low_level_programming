@@ -1,10 +1,13 @@
 #include "main.h"
 
 /**
- * puts2 - reverse a string
+ * puts2 - reverses a string
+ *
  * @str: string to reverse
- * Return: Always 0 (if successful).
+ *
+ * Return: Always 0.
  */
+
 
 void puts2(char *str)
 {

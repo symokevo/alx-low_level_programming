@@ -1,1 +1,1 @@
-This directory has c programming files on recursion exercises 
+All about Recursions in C programming.

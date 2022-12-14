@@ -22,10 +22,11 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * _isqrt - Computevsquare root of a number using repeated
+ * _isqrt - Computes the square root of a number using repeated
  * subtraction method
  * @n: The square value
  * @i: The number to be subtracted from n
+ *
  * Return: int
  */
 int _isqrt(int n, int i)

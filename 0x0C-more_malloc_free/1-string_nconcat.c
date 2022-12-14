@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * string_nconcat - concatenate two strings.
+ * string_nconcat - concatenates two strings.
  * @s1: first string
  * @s2: second string
  * @n: The number of s2 to concatenate to s1
+ *
  * Return: a pointer to s1 and s2 string, NULL otherwise
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -36,8 +37,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 }
 
 /**
- * _strlen - returns the length of a string.
- * @s: string to return the length
+ * _strlen - This function returns the length of a string.
+ * @s: The string to return the length
+ *
  * Return: Length of s
  */
 int _strlen(char *s)

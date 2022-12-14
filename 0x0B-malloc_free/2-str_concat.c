@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * str_concat - concatenates two strings.
- * @s1: first string
- * @s2: second string
+ * str_concat - a function that concatenates two strings.
+ * @s1: The first string
+ * @s2: The second string
+ *
  * Return: char pointer
  */
 char *str_concat(char *s1, char *s2)
@@ -34,8 +35,9 @@ char *str_concat(char *s1, char *s2)
 }
 
 /**
- * _strlen - returns the length of a string.
- * @s: string to return the length
+ * _strlen - This function returns the length of a string.
+ * @s: The string to return the length
+ *
  * Return: Length of s
  */
 int _strlen(char *s)

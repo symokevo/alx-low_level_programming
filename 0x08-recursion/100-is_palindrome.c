@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * is_palindrome - return 1 if string is a palindrome and 0 if not.
+ * is_palindrome - returns 1 if a string is a palindrome and 0 if not.
  * @s: The string to be checked
+ *
  * Return: int
  */
 int is_palindrome(char *s)
@@ -17,6 +18,7 @@ int is_palindrome(char *s)
  * @s: The string to be checked
  * @start: start position
  * @end: end position
+ *
  * Return: int
  */
 int _compare(char *s, int start, int end)
@@ -42,6 +44,7 @@ int _compare(char *s, int start, int end)
 /**
  * _strlen - returns the length of a string.
  * @s: The string to compute the length
+ *
  * Return: int
  */
 int _strlen(char *s)

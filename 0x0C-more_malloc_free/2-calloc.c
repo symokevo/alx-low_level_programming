@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _calloc - allocates memory for an array using malloc.
- * @nmemb: number of member elements
- * @size: array size in bytes
+ * _calloc - allocates memory for an array
+ * using malloc.
+ * @nmemb: The number of member elements
+ * @size: The array size in bytes
  *
  * Return: pointer or NULL
  */

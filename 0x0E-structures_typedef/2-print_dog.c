@@ -2,7 +2,8 @@
 
 /**
  * print_dog - Print dog data to stdio
- * @d: dog data
+ * @d: a dog data
+ *
  * Return: void
  */
 void print_dog(struct dog *d)

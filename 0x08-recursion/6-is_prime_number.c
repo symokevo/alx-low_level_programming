@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * actual_prime - calculate if a number is prime recursively
+ * actual_prime - calculates if a number is prime recursively
  * @n: number to evaluate
  * @i: iterator
  * Return: 1 if n is prime, 0 if not

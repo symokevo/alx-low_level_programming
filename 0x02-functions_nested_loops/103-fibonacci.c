@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - find & print the sum of the even-valued terms
- * a new line follows
- * Return: Always 0 (if successful)
+ * main - finds and prints the sum of the even-valued terms
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

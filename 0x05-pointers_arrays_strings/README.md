@@ -1,2 +1,1 @@
-This folder contains c files with exercises on pointers and arrays
-
+0x05. C -All about Pointers, arrays and strings in C programming.

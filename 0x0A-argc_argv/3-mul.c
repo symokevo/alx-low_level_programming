@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - multiply two numbers.
- * @argc: argument count
- * @argv: argument vector pointer
+ * main - a program that multiplies two numbers.
+ * @argc: The argument count
+ * @argv: The argument vector pointer
+ *
  * Return: 0
  */
 int main(int argc, char *argv[])

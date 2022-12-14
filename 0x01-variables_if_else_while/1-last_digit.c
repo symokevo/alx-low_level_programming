@@ -1,9 +1,8 @@
-
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /**
- * main - program entry point
+ * main - Entry is here
  * Description: last digit
  * Return: always return zero
  */

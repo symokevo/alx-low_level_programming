@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - assign a random number to int n all time
- * it executes and prints it
- * Return: Anything except 0
+ * main - assigns a random number to int n everytime
+ * it executes, and prints it
+ * Return: Anything except zero
  */
 int main(void)
 {

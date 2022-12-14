@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * main - prints min number of coins to make change
+ * main - a program that prints the minimum number
+ * of coins to make change for an amount of money.
  * @argc: The argument count
  * @argv: The argument vector pointer
+ *
  * Return: 0 on success, 1 otherwise
  */
 int main(int argc, char *argv[])
@@ -30,9 +32,11 @@ int main(int argc, char *argv[])
 }
 
 /**
- * change - find change
- * @cents: number of cents
+ * change - Compute change
+ * @cents: The number of cents
+ *
  * Return: int
+ *
  */
 int change(int cents)
 {
